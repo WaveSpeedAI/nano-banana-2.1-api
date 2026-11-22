@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nano-banana-2-1-api"
+version = "0.1.0"
+description = "Nano Banana 2.1 API — Python wrapper for the WaveSpeedAI hosted endpoints"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = ["wavespeed>=2.0.5"]
+
+[project.urls]
+Homepage = "https://wavespeed.ai/nano-banana-2-1-api"
+Repository = "https://github.com/WaveSpeedAI/nano-banana-2.1-api"
+
+[tool.setuptools]
+py-modules = ["nano_banana_api"]
